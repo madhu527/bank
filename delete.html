@@ -1,6 +1,7 @@
+ 
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="en">
+<<head>
 
         <title>Bootstrap Example</title>
         <meta charset="utf-8">
@@ -43,31 +44,32 @@
           <a class="nav-link" href="f.html">Display All Account</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="delete.html">Delete Account</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="SearchBankAccount.html">Search Account</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="update.html">Update Bank Account</a>
+                <a class="nav-link" href="delete.html">Delete Account</a>
               </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="SearchBankAccount.html">Search Account</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="update.html">Update Bank Account</a>
+                  </li>
         <li class="nav-item">
           <a class="nav-link" href="#"></a>
         </li>
         
       </ul>
-    <form style="margin-top:50px; margin-left:300px; margin-right:300px">
-<h3>Check Balance</h3>
-
-<div class="container">
+  <h2>Delete Account </h2>
   <form action="/action_page.php">
-    <label for="fname">Account number</label>
-    <input type="text" id="fname" name="Account number" placeholder="Account number">
-
+    <div class="form-group">
+      <label for="Enter Account Id">Account Id:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Account Id" name="Enter Account Id">
+    </div>
      
-
-     
-    <input type="submit" value="Submit">
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
   </form>
 </div>
 
